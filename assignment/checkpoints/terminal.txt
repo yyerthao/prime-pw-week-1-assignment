@@ -1,21 +1,43 @@
 # Type your responses on a new line
 
 # 1 - What is the command for listing the files in the current folder (directory)?
+ls
 
 # 2 - What is the command for changing directories?
+cd
 
 # 3 - What is the command for going "up" a folder (to a parent directory)?
+cd ..
 
 # 4 - What is a quick way to create a new folder?
+mkdir samplefoldername
 
-# 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
+# 5 - What output would you expect when you run the command 'ls' in an empty
+folder? What about a folder containing files?
+Nothing would load when you run command 'ls' in an empty folder.
+For a folder containing files, running command 'ls' would result in a list
+with the file names of that folder displayed underneath.
 
 # 6 - What is a quick way to create a new file?
+touch filename.txt
+(Per my Googling research, it looks like there could be a different type of
+file to be added in Git, but it seems to have more complicated "rules" so per
+that, I answered with a text file. I hope that train of thought is valid?)
 
 # 7 - Run 'git --version' in your terminal. What is the output?
+The output reads: git version 2.24.3 (Apple Git-128). Basically it tells you
+the version of git your computer has, IF you have git.
 
 # 8 - Why would you run the command 'git status'?
+Running the command 'git status' informs us about the status of our current
+folder and whether or not there were changes made. This is crucial especially
+if we want to pursue pushing our commits to a source like Github.
+(I hope I understood this correctly!)
 
 # 9 - What does the command 'git add .' do?
+From my understanding, the command 'git add .' adds all the files in the current
+folder, into Git. (It also stages or gets our files ready to be committed.)
 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
+git commit -m "Write message about actions just performed here". <-- I think
+that is what the answer is to this question.
